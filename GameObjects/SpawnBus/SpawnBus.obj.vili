@@ -1,0 +1,16 @@
+Animator:
+    path: "sprites://Objects/Bus"
+    default: "idle"
+Sprite:
+    rect:
+        x: 0
+        y: 0
+        width: 160
+        height: 64
+        unit: "ScenePixels"
+    layer: 0
+    sublayer: 0
+    antiAliasing: false
+Script:
+    priority: 0
+    sources: ["self://SpawnBus.lua"]

@@ -1,0 +1,43 @@
+GameConfig:
+    scrollSensibility: 1
+
+Graphics:
+    antiAliasing: true
+
+Framerate:
+    framerateLimit: true
+    framerateTarget: 165
+    vsync: true
+
+Window:
+    Game:
+        fullscreen: false
+        width: 1000
+        height: 1000
+        title: "SGFL Client"
+
+    Editor:
+        fullscreen: false
+        closeable: true
+        titlebar: true
+        resizeable: true
+        width: 1000
+        height: 1000
+        docked: false
+
+Input:
+    game:
+        Jump: ["Pressed: Z", "Pressed: W", "Pressed: Space", "Pressed: Up"]
+        Left: ["Hold: A", "Hold: Q", "Hold: Left"]
+        Right: ["Hold: D", "Hold: Right"]
+        Down: ["Pressed: S", "Pressed: Down"]
+        Attack: ["Pressed: O", "Pressed: MouseButtonLeft"]
+
+Debug:
+    Logging:
+        level: "Debug"
+
+Script:
+    Lua:
+        patchIO: true
+        garbageCollector: "generational"

@@ -1,0 +1,260 @@
+name: "attack"
+framerate: 16.666666666666668
+mode: "OneTime"
+source:
+    spritesheet:
+        image: "heavy_atk.png"
+        frames: [
+            {
+                x: 0,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 69,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 138,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 207,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 276,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 345,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 414,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 483,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 552,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 621,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 690,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 759,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 828,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 897,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 966,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 1035,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 1104,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 1173,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 1242,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 1311,
+                y: 0,
+                width: 69,
+                height: 47
+            }
+]
+
+frames_metadata:
+    frame_0:
+        anchor_points:
+            head:
+                x: 27
+                y: 29
+
+    frame_1:
+        anchor_points:
+            head:
+                x: 28
+                y: 31
+
+    frame_2:
+        anchor_points:
+            head:
+                x: 28
+                y: 30
+
+    frame_3:
+        anchor_points:
+            head:
+                x: 29
+                y: 29
+
+    frame_4:
+        anchor_points:
+            head:
+                x: 29
+                y: 28
+
+    frame_5:
+        anchor_points:
+            head:
+                x: 29
+                y: 28
+
+    frame_6:
+        anchor_points:
+            head:
+                x: 29
+                y: 28
+
+    frame_7:
+        anchor_points:
+            head:
+                x: 29
+                y: 28
+
+    frame_8:
+        anchor_points:
+            head:
+                x: 29
+                y: 27
+
+    frame_9:
+        anchor_points:
+            head:
+                x: 29
+                y: 26
+
+    frame_10:
+        anchor_points:
+            head:
+                x: 29
+                y: 26
+
+    frame_11:
+        anchor_points:
+            head:
+                x: 29
+                y: 26
+
+    frame_12:
+        anchor_points:
+            head:
+                x: 29
+                y: 26
+
+    frame_13:
+        anchor_points:
+            head:
+                x: 29
+                y: 26
+
+    frame_14:
+        anchor_points:
+            head:
+                x: 29
+                y: 26
+
+    frame_15:
+        anchor_points:
+            head:
+                x: 39
+                y: 34
+
+    frame_16:
+        anchor_points:
+            head:
+                x: 39
+                y: 35
+
+    frame_17:
+        anchor_points:
+            head:
+                x: 39
+                y: 35
+
+    frame_18:
+        anchor_points:
+            head:
+                x: 39
+                y: 35
+
+    frame_19:
+        anchor_points:
+            head:
+                x: 39
+                y: 35
+
+groups:
+    main:
+        content: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+
+code: [
+    {
+        group: "main",
+        command: "PlayGroup"
+    }
+]

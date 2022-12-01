@@ -1,0 +1,61 @@
+EntityManager:
+    Spawn:
+        kind:
+            type: "string"
+        owner:
+            type: "string"
+        id:
+            type: "string"
+            optional: true
+        args:
+            type: "object"
+            optional: true
+    Remove:
+        target:
+            type: "string"
+    RemoveAll:
+        owner:
+            type: "string"
+
+Character:
+    Move:
+        target:
+            type: "string"
+        x:
+            type: "number"
+        y:
+            type: "number"
+    TrajectoryUpdate:
+        target:
+            type: "string"
+        trajectory:
+            type: "string"
+        field:
+            type: "string"
+        value:
+            type: "any"
+        x:
+            type: "number"
+        y:
+            type: "number"
+    Hit:
+        target:
+            type: "string"
+    DirectionUpdate:
+        target:
+            type: "string"
+        direction:
+            type: "string"
+    AnimationUpdate:
+        target:
+            type: "string"
+        animation:
+            type: "string"
+
+Scene:
+    Load:
+        data:
+            type: "object"
+    LoadFromLocalFile:
+        scene_name:
+            type: "string"

@@ -1,0 +1,13 @@
+configs:
+  host:
+    mode: "server"
+    host: "0.0.0.0"
+    port: 53000
+    spec: "game://network_spec.vili"
+  client:
+    mode: "client"
+    host: "gameoff.sgfl.quest"
+    port: 53000
+    spec: "game://network_spec.vili"
+
+use: "client"

@@ -1,2 +1,2 @@
-# GameOff2022
-Battle-royale MMORPG for GameOff 2022
+# SGFL-Client
+SGFL client

@@ -1,0 +1,18 @@
+Meta:
+    name: "NetworkTest"
+    background: "#88B1B1"
+
+View:
+    size: 1
+    position:
+        x: 0.0
+        y: 0.0
+        unit: "SceneUnits"
+
+    referential: "TopLeft"
+
+GameObjects:
+    network:
+        type: "NetworkManager"
+    entity_manager:
+        type: "EntityManager"

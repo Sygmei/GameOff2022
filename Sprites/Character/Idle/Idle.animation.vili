@@ -1,0 +1,104 @@
+name: "idle"
+framerate: 16.666666666666668
+mode: "Loop"
+source:
+    spritesheet:
+        image: "idle.png"
+        frames: [
+            {
+                x: 0,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 69,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 138,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 207,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 276,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 345,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 414,
+                y: 0,
+                width: 69,
+                height: 47
+            }
+]
+
+frames_metadata:
+    frame_0:
+        anchor_points:
+            head:
+                x: 27
+                y: 29
+
+    frame_1:
+        anchor_points:
+            head:
+                x: 27
+                y: 29
+
+    frame_2:
+        anchor_points:
+            head:
+                x: 27
+                y: 29
+
+    frame_3:
+        anchor_points:
+            head:
+                x: 27
+                y: 29
+
+    frame_4:
+        anchor_points:
+            head:
+                x: 27
+                y: 30
+
+    frame_5:
+        anchor_points:
+            head:
+                x: 27
+                y: 31
+
+    frame_6:
+        anchor_points:
+            head:
+                x: 27
+                y: 30
+
+groups:
+    main:
+        content: [0, 1, 2, 3, 4, 5, 6]
+
+code: [
+    {
+        command: "PlayGroup",
+        group: "main"
+    }
+]

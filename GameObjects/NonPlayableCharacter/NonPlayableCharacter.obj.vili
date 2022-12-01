@@ -1,0 +1,25 @@
+Animator:
+    path: "sprites://Character"
+    default: "idle"
+Collider:
+    unit: "SceneUnits"
+    x: 0
+    y: 0
+    type: "Rectangle"
+    width: 0.02
+    height: 0.0510
+    tag: "Character"
+Sprite:
+    path: "sprites://Character/main.png"
+    rect:
+        x: -0.06
+        y: -0.04
+        width: 0.1468
+        height: 0.1
+        unit: "SceneUnits"
+    layer: 4
+    sublayer: 0
+    antiAliasing: false
+Script:
+    priority: 0
+    sources: ["self://NonPlayableCharacter.lua"]

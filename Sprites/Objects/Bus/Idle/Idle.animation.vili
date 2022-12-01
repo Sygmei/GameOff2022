@@ -1,0 +1,43 @@
+name: "idle"
+framerate: 16.666666666666668
+mode: "Loop"
+source:
+    spritesheet:
+        image: "school_bus.png"
+        frames: [
+            {
+                x: 0,
+                y: 0,
+                width: 160,
+                height: 64
+            },
+            {
+                x: 160,
+                y: 0,
+                width: 160,
+                height: 64
+            },
+            {
+                x: 320,
+                y: 0,
+                width: 160,
+                height: 64
+            },
+            {
+                x: 480,
+                y: 0,
+                width: 160,
+                height: 64
+            }
+]
+
+groups:
+    main:
+        content: [0, 1, 2, 3]
+
+code: [
+    {
+        group: "main",
+        command: "PlayGroup"
+    }
+]

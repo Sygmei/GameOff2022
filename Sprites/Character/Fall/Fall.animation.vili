@@ -1,0 +1,68 @@
+name: "fall"
+framerate: 16.666666666666668
+mode: "Loop"
+source:
+    spritesheet:
+        image: "fall.png"
+        frames: [
+            {
+                x: 0,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 69,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 138,
+                y: 0,
+                width: 69,
+                height: 47
+            },
+            {
+                x: 207,
+                y: 0,
+                width: 69,
+                height: 47
+            }
+]
+
+frames_metadata:
+    frame_0:
+        anchor_points:
+            head:
+                y: 27
+                x: 27
+
+    frame_1:
+        anchor_points:
+            head:
+                y: 27
+                x: 27
+
+    frame_2:
+        anchor_points:
+            head:
+                y: 27
+                x: 27
+
+    frame_3:
+        anchor_points:
+            head:
+                y: 27
+                x: 27
+
+groups:
+    main:
+        content: [0, 1, 2, 3]
+
+code: [
+    {
+        command: "PlayGroup",
+        group: "main"
+    }
+]

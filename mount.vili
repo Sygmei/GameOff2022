@@ -1,0 +1,7 @@
+mounts:
+    game: "cwd://."
+    scenes: "game://Scenes"
+    objects: "game://GameObjects"
+    sounds: "game://Sounds"
+    sprites: "game://Sprites"
+    ts: "game://Sprites/Tilesets"

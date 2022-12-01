@@ -1,0 +1,15 @@
+id: "sygoufeelou"
+name: "Sygoufeelou"
+version: "0.1.0"
+authors: ["Sygmei", "FEEL"]
+description: "Next AAA game"
+obengine_version: "0.5.0"
+exclude: [".gitignore"]
+source: ""
+
+mounts:
+    scenes: "game://Scenes"
+    objects: "game://GameObjects"
+    sounds: "game://Sounds"
+    sprites: "game://Sprites"
+    ts: "game://Sprites/Tilesets"
